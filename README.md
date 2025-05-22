@@ -22,4 +22,4 @@ Open `index.html` in your browser and enjoy!
 
 ---
 
-Made with 💚 by [Your Name] and ChatGPT
+Made with 💚 by ceaseerzhao and ChatGPT
