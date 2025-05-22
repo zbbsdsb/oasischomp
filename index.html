@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Oasis Chomp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🌿 Oasis Chomp</h1>
+
+  <div class="controls">
+    <label>Rows: <input type="number" id="rows" min="2" value="6"></label>
+    <label>Cols: <input type="number" id="cols" min="2" value="6"></label>
+    <button onclick="createBoard()">Start Game</button>
+  </div>
+
+  <div id="turnDisplay">Player 1's turn</div>
+  <div id="board"></div>
+
+  <button onclick="resetGame()" class="reset-btn">Reset</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
